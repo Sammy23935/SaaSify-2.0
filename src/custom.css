@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root{
+    --primary-:#6D28D9;
+    --btn-primary:#7C3AED;
+}
+body{
+    font-family: 'inter',system-ui,sans-serif;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+}
+.custom-width{
+    width: 443px;
+}

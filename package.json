@@ -1,0 +1,21 @@
+{
+  "name": "saasify-2-0",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2",
+    "vite": "^8.0.12"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.0",
+    "aos": "^2.3.4",
+    "boxicons": "^2.1.4",
+    "tailwindcss": "^4.3.0"
+  }
+}

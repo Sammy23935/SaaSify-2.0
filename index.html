@@ -1,0 +1,931 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>saasify-Home</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="bg-white p-3 shadow-md z-50 fixed top-0 left-0 w-full">
+      <div class="mx-4 flex justify-between items-center">
+        <!-- brand -->
+        <div class="brand-wrapper w-25 md:w-30">
+          <img src="/src/assets/logo.svg" alt="logo" class="w-25 md:w-30" />
+        </div>
+        <!-- nav links -->
+        <nav class="hidden lg:block">
+          <ul class="flex gap-8">
+            <li><a href="#Feature"> Feature </a></li>
+            <li><a href="#Pricing"> Pricing </a></li>
+            <li><a href="#Testimonials"> Testimonials </a></li>
+            <li>
+              <a href="#Resoures">
+                Resoures
+                <!-- icon  -->
+                <!-- resource list -->
+                <ul>
+                  <li><a href="#Documentation"> </a></li>
+                  <li><a href="#Documentation"></a></li>
+                  <li><a href="#Documentation"></a></li>
+                </ul>
+              </a>
+            </li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </nav>
+        <!-- nav-cta -->
+        <div class="flex justify-center items-center gap-6">
+          <!-- icon -->
+          <i class="fa fa-moon text-base" aria-hidden="true"></i>
+          <a
+            class="bg-(--btn-primary) p-2.5 px-5 rounded-lg text-gray-100 font-bold"
+            href="#"
+          >
+            Get Started
+          </a>
+          <i class="fa fa-bars text-lg text-gray-500" aria-hidden="true"></i>
+          <!-- icon -->
+        </div>
+      </div>
+    </header>
+    <!-- main -->
+    <main>
+      <section class="bg-white">
+        <!-- hero section -->
+        <div class="text-center m-auto max-w-2xl mt-40">
+          <span
+            class="border border-purple-100 p-2 px-5 rounded-4xl text-sm text-purple-700 font-normal relative"
+          >
+            <!-- icon -->
+            <span class="relative flex size-3">
+              <span
+                class="absolute inline-flex h-full w-full animate-ping rounded-full bg-sky-400 opacity-75"
+              ></span>
+              <span class="inline-flex size-3 rounded-full bg-sky-500"></span>
+            </span>
+            Now with AI-powered automation
+          </span>
+          <!-- hero-content-wrapper-->
+          <div class="mt-8 mb-8">
+            <h1
+              class="text-4xl sm:text-5xl font-bold text-zinc-900 tracking-tight mb-7"
+            >
+              Build better products,
+              <br />
+              <span
+                class="bg-linear-to-r/shorter from-purple-500 to-teal-400 bg-clip-text text-transparent"
+              >
+                faster than ever
+              </span>
+            </h1>
+            <p
+              class="text-lg md:text-xl leading-7 text-zinc-600 font-medium mb-10 mx-6"
+            >
+              The all-in-one platform that helps teams ship quality software.
+              Automate workflows, collaborate seamlessly, and scale with
+              confidence.
+            </p>
+            <!-- hero cta -->
+            <div class="border-b border-zinc-200 mb-5">
+              <div
+                class="flex flex-col sm:flex-row justify-center items-center gap-7 mb-15"
+              >
+                <a
+                  class="bg-purple-800 p-4 px-8 rounded-lg text-white font-medium inline-block text-base leading-5 shadow-2xl shadow-fuchsia-300 hover:shadow-fuchsia-400 hover:bg-purple-900"
+                  href="#start-free-trial"
+                >
+                  Start free trail
+                  <!-- icon -->
+                  <i
+                    class="fa fa-long-arrow-right text-gray-200"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+                <a
+                  class="border border-zinc-200 p-4 px-8 rounded-lg text-base font-normal text-zinc-800 leading-5 hover:bg-zinc-100"
+                  href="#Watch-demo"
+                >
+                  <!-- icon -->
+                  <i
+                    class="fa fa-play text-purple-800 text-sm"
+                    aria-hidden="true"
+                  ></i>
+                  Watch demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- stats and rating -->
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+            <div class="flex flex-col gap-1.5">
+              <span class="text-2xl sm:text-3xl font-bold leading-9">
+                10k+
+              </span>
+              <small class="text-base font-normal leading-8">
+                Active Users
+              </small>
+            </div>
+            <div class="flex flex-col gap-2">
+              <span class="text-2xl sm:text-3xl font-bold leading-9">
+                99.9%
+              </span>
+              <small class="text-base font-normal leading-8">
+                Uptime SLA
+              </small>
+            </div>
+            <div class="flex flex-col gap-2">
+              <span class="text-2xl sm:text-3xl font-bold leading-9">
+                50+
+              </span>
+              <small class="text-base font-normal leading-8">
+                Intergrations
+              </small>
+            </div>
+            <div class="flex flex-col gap-2">
+              <span class="text-2xl font-bold leading-8">
+                4.9
+                <!-- icon -->
+                <i class="fa fa-star text-2xl" aria-hidden="true"></i>
+              </span>
+              <small class="text-base font-normal leading-8">
+                Users ratings
+              </small>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--mini-dashboard-section -->
+      <section class="mb-20">
+        <div
+          class="flex justify-center items-center dashboard-wrapper mx-5 my-25 sm:my-5"
+        >
+          <div class="img-wrapper max-w-5xl shadow-2xl">
+            <img
+              src="/src/assets/revenue-dashboard.svg"
+              alt="dashboard"
+              class="rounded-xl"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- feature section -->
+      <section class="bg-gray-50 py-19">
+        <div class="feature-content-wrapper">
+          <div class="text-center space-y-4 mb-15">
+            <span
+              class="inline-block text-purple-700 bg-purple-100 p-1 px-3 rounded-4xl font-light text-base leading-6"
+              >Feature</span
+            >
+            <h3
+              class="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-tight mx-5 sm:mx-0"
+            >
+              Everything you need to ship faster
+            </h3>
+            <p class="text-lg text-zinc-700 mx-10 leading-7">
+              Powerful tools designed to streamline your workflow and boost team
+              productivity.
+            </p>
+          </div>
+
+          <!-- card section -->
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mx-8 gap-6"
+          >
+            <div
+              class="group transition p-8 shadow-2xl shadow-olive-200 space-y-4 hover:bg-gray-50 py-10 rounded-xl max-w-md mx-auto"
+            >
+              <div
+                class="p-5 px-6 bg-purple-100 w-13 h-13 flex items-center justify-center rounded-lg group-hover:bg-purple-600 transition"
+              >
+                <i
+                  class="fa fa-bolt group-hover:text-white text-xl text-purple-700"
+                  aria-hidden="true"
+                ></i>
+              </div>
+              <h4 class="text-xl font-semibold leading-6 text-black">
+                Workflow Automation
+              </h4>
+              <p class="font-normal text-md text-gray-700">
+                Automate repetitive tasks and focus on what matters. Set up
+                triggers, action, and conditions without code.
+              </p>
+            </div>
+
+            <div
+              class="group transition p-8 shadow-2xl shadow-olive-200 space-y-4 hover:bg-gray-50 py-10 rounded-xl max-w-md mx-auto"
+            >
+              <!-- icon -->
+              <div
+                class="p-5 px-6 bg-purple-100 w-13 h-13 flex items-center justify-center rounded-lg group-hover:bg-purple-600 transition"
+              >
+                <i
+                  class="fa fa-users group-hover:text-white text-xl text-purple-700"
+                  aria-hidden="true"
+                ></i>
+              </div>
+              <h4 class="text-xl font-semibold leading-6 text-black">
+                Real-time Collabration
+              </h4>
+              <p class="font-normal text-md text-gray-700">
+                Work together seamlessly with live cursors, comments, and
+                instant sync across all devices.
+              </p>
+            </div>
+            <div
+              class="group transition p-8 shadow-2xl shadow-olive-200 space-y-4 hover:bg-gray-50 py-10 rounded-xl max-w-md mx-auto"
+            >
+              <!-- icon -->
+              <div
+                class="p-5 px-6 bg-purple-100 w-13 h-13 flex items-center justify-center rounded-lg group-hover:bg-purple-600 transition"
+              >
+                <i
+                  class="fa fa-bar-chart group-hover:text-white text-xl text-purple-700"
+                  aria-hidden="true"
+                ></i>
+              </div>
+              <h4 class="text-xl font-semibold leading-6 text-black">
+                Advnaced Analystics
+              </h4>
+              <p class="font-normal text-md text-gray-700">
+                Get deep insights into your team's performance with customizable
+                dashboard and reports.
+              </p>
+            </div>
+            <div
+              class="group transition p-8 shadow-2xl shadow-olive-200 space-y-4 hover:bg-gray-50 py-10 rounded-xl max-w-md mx-auto"
+            >
+              <!-- icon -->
+              <div
+                class="p-5 px-6 bg-purple-100 w-13 h-13 flex items-center justify-center rounded-lg group-hover:bg-purple-600 transition"
+              >
+                <i
+                  class="fa fa-shield group-hover:text-white text-xl text-purple-700"
+                  aria-hidden="true"
+                ></i>
+              </div>
+              <h4 class="text-xl font-semibold leading-6 text-black">
+                Enterprice Security
+              </h4>
+              <p class="font-normal text-md text-gray-700">
+                Bank-grade encryption, SSO, audit logs, and compilance
+                certification for peace of mind.
+              </p>
+            </div>
+            <div
+              class="group transition p-8 shadow-2xl shadow-olive-200 space-y-4 hover:bg-gray-50 py-10 rounded-xl max-w-md mx-auto"
+            >
+              <!-- icon -->
+              <div
+                class="p-5 px-6 bg-purple-100 w-13 h-13 flex items-center justify-center rounded-lg group-hover:bg-purple-600 transition"
+              >
+                <i
+                  class="fa fa-puzzle-piece group-hover:text-white text-xl text-purple-700"
+                  aria-hidden="true"
+                ></i>
+              </div>
+              <h4 class="text-xl font-semibold leading-6 text-black">
+                API & Integrations
+              </h4>
+              <p class="font-normal text-md text-gray-700">
+                Connect with 50+ tools you already use. REST API and webhooks
+                for custom integrations.
+              </p>
+            </div>
+            <div
+              class="group transition p-8 shadow-2xl shadow-olive-200 space-y-4 hover:bg-gray-50 py-10 rounded-xl max-w-md mx-auto"
+            >
+              <!-- icon -->
+              <div
+                class="p-5 px-6 bg-purple-100 w-13 h-13 flex items-center justify-center rounded-lg group-hover:bg-purple-600 transition"
+              >
+                <i
+                  class="fa fa-headphones group-hover:text-white text-xl text-purple-700"
+                  aria-hidden="true"
+                ></i>
+              </div>
+              <h4 class="text-xl font-semibold leading-6 text-black">
+                24/7 Support
+              </h4>
+              <p class="font-normal text-md text-gray-700">
+                Get help when you need it with our dedicated support team and
+                comprehensive documentation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--  pricing section -->
+      <section class="bg-white py-19">
+        <div class="">
+          <!-- pricing header -->
+          <div class="text-center space-y-4 mb-15">
+            <span
+              class="inline-block text-purple-700 bg-purple-100 p-1 px-3 rounded-4xl font-light text-base leading-6"
+              >Pricing</span
+            >
+            <h3
+              class="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-tight"
+            >
+              Simple, transparent pricing
+            </h3>
+            <p class="text-lg text-zinc-700 mx-10 leading-7 mb-9">
+              Choose the plan that mits your need, All plans includes a 14 days
+              free trial.
+            </p>
+            <!-- monthly -->
+            <div class="flex justify-center items-center gap-4">
+              <h5 class="text-sm font-semibold text-black">Monthly</h5>
+              <!-- switch -->
+              <button
+                class="w-14 h-7 bg-gray-200 rounded-full p-1 cursor-pointer"
+              >
+                <div
+                  class="w-5 h-5 bg-white rounded-full translate-x-0 transition duration-300"
+                ></div>
+              </button>
+              <h5 class="text-sm font-semibold text-gray-500">Yearly</h5>
+              <span
+                class="inline-block text-green-900 bg-green-100 px-2 rounded-4xl font-light text-sm leading-6"
+              >
+                Save 20%
+              </span>
+            </div>
+          </div>
+          <!-- pricing cards -->
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mx-5">
+            <!-- first card -->
+            <div
+              class="bg-gray-50 hover:shadow-xl p-10 rounded-2xl space-y-6 transition"
+            >
+              <div class="text-center space-y-2">
+                <h4 class="text-xl font-semibold text-black">Starter</h4>
+                <p class="text-sm font-semibold text-gray-500 mb-6">
+                  Perfect for small teams getting started
+                </p>
+                <!-- price -->
+                <div class="flex items-baseline justify-center">
+                  <big class="text-5xl font-bold"> $29 </big>
+                  <p class="text-sm font-medium text-gray-500">/month</p>
+                </div>
+                <p class="text-sm font-medium text-gray-500">Billed monthly</p>
+              </div>
+              <!-- benefit list -->
+              <div class="space-y-4">
+                <div class="flex items-center gap-3">
+                  <!-- icon -->
+                  <i
+                    class="fa fa-check text-purple-400 text-sm"
+                    aria-hidden="true"
+                  ></i>
+                  <p class="text-md font-semibold text-gray-600">
+                    Up to 5 team members
+                  </p>
+                </div>
+                <div class="flex items-center gap-3">
+                  <!-- icon -->
+                  <i
+                    class="fa fa-check text-purple-400 text-sm"
+                    aria-hidden="true"
+                  ></i>
+                  <p class="text-md font-semibold text-gray-600">
+                    Basic analytics
+                  </p>
+                </div>
+                <div class="flex items-center gap-3">
+                  <!-- icon -->
+                  <i
+                    class="fa fa-check text-purple-400 text-sm"
+                    aria-hidden="true"
+                  ></i>
+                  <p class="text-md font-semibold text-gray-600">
+                    10 GB storage
+                  </p>
+                </div>
+                <div class="flex items-center gap-3">
+                  <!-- icon -->
+                  <i
+                    class="fa fa-check text-purple-400 text-sm"
+                    aria-hidden="true"
+                  ></i>
+                  <p class="text-md font-semibold text-gray-600">
+                    Email support
+                  </p>
+                </div>
+                <div class="flex items-center gap-3">
+                  <!-- icon x -->
+                  <i
+                    class="fa fa-times text-gray-400 text-sm"
+                    aria-hidden="true"
+                  ></i>
+                  <p class="text-md font-semibold text-gray-400">API access</p>
+                </div>
+                <div class="flex items-center gap-3">
+                  <!-- icon x -->
+                  <i
+                    class="fa fa-times text-gray-400 text-sm"
+                    aria-hidden="true"
+                  ></i>
+                  <p class="text-md font-semibold text-gray-400">
+                    Custom integration
+                  </p>
+                </div>
+              </div>
+              <div class="flex justify-center">
+                <button
+                  class="w-full bg-gray-200 p-3 rounded-lg font-semibold text-zinc-800 hover:bg-gray-300 transition"
+                >
+                  Get started
+                </button>
+              </div>
+            </div>
+
+            <!-- second card -->
+            <div
+              class="bg-gray-50 hover:shadow-xl p-10 rounded-2xl space-y-6 border-2 border-(--btn-primary) transition relative"
+            >
+              <!-- card header -->
+              <div class="text-center space-y-2">
+                <span
+                  class="inline-block text-white bg-(--btn-primary) p-0.5 px-5 rounded-4xl font-semibold text-sm leading-6 absolute -top-4 left-1/2 -translate-x-1/2"
+                  >Most Popular</span
+                >
+                <h4 class="text-xl font-semibold text-black">Pro</h4>
+                <p class="text-sm font-semibold text-gray-500 mb-6">
+                  For growing teams that need more
+                </p>
+
+                <!-- pricing -->
+                <div class="flex items-baseline justify-center">
+                  <big class="text-5xl font-bold"> $79 </big>
+                  <p class="text-sm font-medium text-gray-500">/month</p>
+                </div>
+                <p class="text-sm font-medium text-gray-500">Billed monthly</p>
+              </div>
+
+              <!-- benefit -->
+              <div class="space-y-4">
+                <div class="flex items-center gap-3">
+                  <!-- icon -->
+                  <i
+                    class="fa fa-check text-purple-400 text-sm"
+                    aria-hidden="true"
+                  ></i>
+                  <p>Up to 20 team members</p>
+                </div>
+                <div class="flex items-center gap-3">
+                  <!-- icon -->
+                  <i
+                    class="fa fa-check text-purple-400 text-sm"
+                    aria-hidden="true"
+                  ></i>
+                  <p>Advanced analytics</p>
+                </div>
+                <div class="flex items-center gap-3">
+                  <!-- icon -->
+                  <i
+                    class="fa fa-check text-purple-400 text-sm"
+                    aria-hidden="true"
+                  ></i>
+                  <p>100 GB storage</p>
+                </div>
+                <div class="flex items-center gap-3">
+                  <!-- icon -->
+                  <i
+                    class="fa fa-check text-purple-400 text-sm"
+                    aria-hidden="true"
+                  ></i>
+                  <p>Priority support</p>
+                </div>
+                <div class="flex items-center gap-3">
+                  <!-- icon -->
+                  <i
+                    class="fa fa-check text-purple-400 text-sm"
+                    aria-hidden="true"
+                  ></i>
+                  <p>API access</p>
+                </div>
+                <div class="flex items-center gap-3">
+                  <!-- icon x -->
+                  <i
+                    class="fa fa-times text-gray-400 text-sm"
+                    aria-hidden="true"
+                  ></i>
+                  <p>Custom integrations</p>
+                </div>
+              </div>
+              <div class="flex justify-center">
+                <button
+                  class="w-full bg-(--btn-primary) text-white p-3 rounded-lg font-semibold hover:bg-(--primary-) transition"
+                >
+                  Get started
+                </button>
+              </div>
+            </div>
+
+            <!-- third card -->
+            <div
+              class="bg-gray-50 hover:shadow-xl p-10 rounded-2xl space-y-6 transition"
+            >
+              <!-- card header -->
+              <div class="text-center space-y-2">
+                <h4 class="text-xl font-semibold text-black">Enterprice</h4>
+                <p class="text-sm font-semibold text-gray-500 mb-6">
+                  For large organization
+                </p>
+
+                <!-- pricing -->
+                <div class="flex items-baseline justify-center">
+                  <big class="text-5xl font-bold"> $199 </big>
+                  <p class="text-sm font-medium text-gray-500">/month</p>
+                </div>
+                <p class="text-sm font-medium text-gray-500">Billed monthly</p>
+              </div>
+
+              <!-- benefit -->
+              <div class="space-y-4">
+                <div class="flex items-center gap-3">
+                  <!-- icon -->
+                  <i
+                    class="fa fa-check text-purple-400 text-sm"
+                    aria-hidden="true"
+                  ></i>
+                  <p>unlimited team members</p>
+                </div>
+                <div class="flex items-center gap-3">
+                  <!-- icon -->
+                  <i
+                    class="fa fa-check text-purple-400 text-sm"
+                    aria-hidden="true"
+                  ></i>
+                  <p>Custom analytics</p>
+                </div>
+                <div class="flex items-center gap-3">
+                  <!-- icon -->
+                  <i
+                    class="fa fa-check text-purple-400 text-sm"
+                    aria-hidden="true"
+                  ></i>
+                  <p>Unlimited storage</p>
+                </div>
+                <div class="flex items-center gap-3">
+                  <!-- icon -->
+                  <i
+                    class="fa fa-check text-purple-400 text-sm"
+                    aria-hidden="true"
+                  ></i>
+                  <p>24/7 dedicated support</p>
+                </div>
+                <div class="flex items-center gap-3">
+                  <!-- icon -->
+                  <i
+                    class="fa fa-check text-purple-400 text-sm"
+                    aria-hidden="true"
+                  ></i>
+                  <p>API access</p>
+                </div>
+                <div class="flex items-center gap-3">
+                  <!-- icon -->
+                  <i
+                    class="fa fa-check text-purple-400 text-sm"
+                    aria-hidden="true"
+                  ></i>
+                  <p>Custom integrations</p>
+                </div>
+              </div>
+              <div class="flex justify-center">
+                <button
+                  class="w-full bg-gray-200 p-3 rounded-lg font-semibold text-zinc-800 hover:bg-gray-300 transition"
+                >
+                  Get started
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials section -->
+      <section class="bg-gray-50 py-18 mb-8">
+        <div class="testimonials-content-wrapper">
+          <!-- testimonials header -->
+          <div class="text-center space-y-3">
+            <span
+              class="inline-block text-purple-700 bg-purple-100 p-1 px-3 rounded-4xl font-semibold text-sm leading-6"
+            >
+              Testimonials
+            </span>
+
+            <h3
+              class="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-tight"
+            >
+              Loved by teams worldwide
+            </h3>
+            <p class="text-lg text-zinc-700 mx-10 leading-7 mb-9">
+              See what our customers have to say about their experience.
+            </p>
+          </div>
+          <!-- testimonials cards -->
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-7 mx-5">
+            <!-- card one -->
+            <div class="bg-white p-10 shadow-lg space-y-5">
+              <span class="inline-block text-3xl text-amber-500 font-bold">
+                * * * * *
+              </span>
+              <p
+                class="text-lg text-zinc-900 leading-7 sm:w-136 md:w-[768] lg:w-[234.672px] xl:w-full"
+              >
+                "SaaSify has transformed how our team works. We've cut our
+                deployment time by 60% and have't looked back."
+              </p>
+              <!-- profile -->
+              <div class="flex items-center gap-3">
+                <div
+                  class="bg-gray-100 p-3 px-5 rounded-full text-purple-900 font-bold text-lg"
+                >
+                  S
+                </div>
+                <div class="flex flex-col">
+                  <p class="font-semibold text-black">Sarah Chen</p>
+                  <p class="text-sm text-gray-600">CTO, TechFlow</p>
+                </div>
+              </div>
+            </div>
+            <!-- card two -->
+            <div class="bg-white p-10 shadow-lg space-y-5">
+              <span class="inline-block text-3xl text-amber-500 font-bold">
+                * * * * *
+              </span>
+              <p
+                class="text-lg text-zinc-900 leading-7 sm:w-136 md:w-[768] lg:w-[234.672px] xl:w-full"
+              >
+                "The automation feature alone saved us 20+ hours per week. The
+                ROI was evident within the first month."
+              </p>
+              <!-- profile -->
+              <div class="flex items-center gap-3">
+                <div
+                  class="bg-gray-100 p-3 px-5 rounded-full text-purple-900 font-bold text-lg"
+                >
+                  M
+                </div>
+                <div class="flex flex-col">
+                  <p class="font-semibold text-black">Marcus Johnson</p>
+                  <p class="text-sm text-gray-600">
+                    Head of Enginnering, DataSync
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- card three -->
+            <div class="bg-white p-10 shadow-lg space-y-5">
+              <span class="inline-block text-3xl text-amber-500 font-bold">
+                * * * * *
+              </span>
+              <p
+                class="text-lg text-zinc-900 leading-7 sm:w-136 md:w-[768] lg:w-[234.672px] xl:w-full"
+              >
+                "Best-in-class suport and a product that actually delivers on
+                its promises. Highly recommended"
+              </p>
+              <!-- profile -->
+              <div class="flex items-center gap-3">
+                <div
+                  class="bg-gray-100 p-3 px-5 rounded-full text-purple-900 font-bold text-lg"
+                >
+                  E
+                </div>
+                <div class="flex flex-col">
+                  <p class="font-semibold text-black">Emily Rodriguez</p>
+                  <p class="text-sm text-gray-600">
+                    Product Manager, CloudBase
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- cta section -->
+      <section class="bg-(--primary-) py-10">
+        <div class="text-center py-20 text-white space-y-8">
+          <h2
+            class="text-[36px] leading-12 mx-auto font-bold md:text-[36px] sm:text-[36px] 2xl:text-[48px] 2xl:w-3xl"
+          >
+            Ready to transform your workflow?
+          </h2>
+          <p class="text-[18px] mx-5 font-medium leading-7 text-gray-300">
+            Join thousands of teams already using SaaSify to build better
+            product, faster.
+          </p>
+
+          <!-- cta group -->
+          <div
+            class="flex flex-col sm:flex-row justify-center items-center gap-4"
+          >
+            <a
+              class="bg-white p-4 px-8 text-purple-800 rounded-lg"
+              href="#action"
+              >Start free trial -></a
+            >
+            <a
+              class="bg-transparent border border-gray-300 p-4 px-8 text-white rounded-lg"
+              href="#Contact"
+              >Contact sales</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="bg-gray-900 pt-16 text-gray-300 lg:pt-24 ">
+      <div class=" container mx-auto px-4 lg:px-8">
+        <div class="space-y-10 grid gap-12 lg:grid-cols-12 lg:gap-8 border-b border-gray-800 mb-8">
+
+          <!-- brand column -->
+          <div class="lg:col-span-4">
+            <div class="brand-wrapper w-25 md:w-35 mb-6">
+              <img src="/src/assets/logo-light.svg" alt="logo" class="" />
+            </div>
+            <p class="mb-5 text-md font-medium text-zinc-400">
+              The modern platform for scaling your <br />
+              business
+            </p>
+
+            <!-- social icons-->
+            <div class="flex gap-4">
+              <div
+                class="flex items-center cursor-pointer bg-zinc-900 p-3 rounded-lg text-zinc-400 hover:text-zinc-100 hover:bg-zinc-700 transition"
+              >
+                <i class="fa-brands fa-x-twitter text-lg"></i>
+              </div>
+              <div
+                class="flex items-center cursor-pointer bg-zinc-900 p-3 rounded-lg text-zinc-400 hover:text-zinc-100 hover:bg-zinc-700 transition"
+              >
+                <i class="fa-brands fa-github text-lg"></i>
+              </div>
+              <div
+                class="flex items-center cursor-pointer bg-zinc-900 p-3 rounded-lg text-zinc-400 hover:text-zinc-100 hover:bg-zinc-700 transition"
+              >
+                <i class="fa-brands fa-linkedin text-xl"></i>
+              </div>
+              <!-- instagram -->
+            </div>
+          </div>
+
+           <!-- link column -->
+          <div class="grid gap-8 sm:grid-cols-3 lg:col-span-5">
+            <div class="">
+              <ul class="space-y-3">
+                <li class="text-sm">PRODUCT</li>
+                <li
+                  class="text-gray-400 text-sm hover:text-gray-300 transition"
+                >
+                  <a href="#Features">Features</a>
+                </li>
+                <li
+                  class="text-gray-400 text-sm hover:text-gray-300 transition"
+                >
+                  <a href="#Pricing">Pricing</a>
+                </li>
+                <li
+                  class="text-gray-400 text-sm hover:text-gray-300 transition"
+                >
+                  <a href="#Integrations">Integrations</a>
+                </li>
+                <li
+                  class="text-gray-400 text-sm hover:text-gray-300 transition"
+                >
+                  <a href="#Changelog">Changelog</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- col-3 -->
+            <div>
+              <div>
+                <ul class="space-y-3">
+                  <li class="text-sm">COMPANY</li>
+                  <li
+                    class="text-gray-400 text-sm hover:text-gray-300 transition"
+                  >
+                    <a href="#About">About</a>
+                  </li>
+                  <li
+                    class="text-gray-400 text-sm hover:text-gray-300 transition"
+                  >
+                    <a href="#Blog">Blog</a>
+                  </li>
+                  <li
+                    class="text-gray-400 text-sm hover:text-gray-300 transition"
+                  >
+                    <a href="#Careers">Careers</a>
+                  </li>
+                  <li
+                    class="text-gray-400 text-sm hover:text-gray-300 transition"
+                  >
+                    <a href="#Contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- col-4 -->
+            <div>
+              <div>
+                <ul class="space-y-3">
+                  <li class="text-sm">LEGAL</li>
+                  <li
+                    class="text-gray-400 text-sm hover:text-gray-300 transition"
+                  >
+                    <a href="#Privacy">Privacy</a>
+                  </li>
+                  <li
+                    class="text-gray-400 text-sm hover:text-gray-300 transition"
+                  >
+                    <a href="#Terms">Terms</a>
+                  </li>
+                  <li
+                    class="text-gray-400 text-sm hover:text-gray-300 transition"
+                  >
+                    <a href="#Security">Security</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <!-- news-letters -->
+         <div class=" lg:col-span-3 pb-16 mb-10">
+            <div class="space-y-5">
+              <h5 class="text-sm font-semibold">STAY UPDATED</h5>
+              <p class="text-gray-400 text-md">
+                Get the latest news and updates delivered to you inbox
+              </p>
+              <form action="/subscrib">
+                <div
+                  class="flex border border-gray-800 ps-4 rounded-xl bg-zinc-800"
+                >
+                  <input
+                    class="flex-1 text-md text-gray-300 outline-0"
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter your email"
+                  />
+                  <button
+                    class="bg-blue-600 p-3 rounded-lg text-sm cursor-pointer hover:bg-blue-700 transition"
+                    id="footer-btn"
+                  >
+                    <i class="fa-solid fa-paper-plane"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- all right reserved -->
+        <div
+          class="flex flex-col items-center gap-3 sm:flex-row sm:justify-between pb-10"
+        >
+          <span class="text-sm text-gray-500 font-medium">
+            @ 2026 SaaSify, All right reserved.
+          </span>
+
+          <div class="flex gap-8">
+            <span class="text-sm text-gray-500 font-medium">
+              Privacy Policy
+            </span>
+            <span class="text-sm text-gray-500 font-medium">
+              Terms of Service
+            </span>
+          </div>
+        </div>
+         </div>
+
+         
+      </div>
+      </div>
+    </footer>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
